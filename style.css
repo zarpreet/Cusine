@@ -1,0 +1,63 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  color: dimgray;
+}
+
+h4 {
+  color:#3b3a3a
+}
+
+h2 {
+  color:#525151
+}
+body {
+  background-color:#f7f3e6;
+  font-family: "Sofia", sans-serif;
+}
+
+
+img {
+  max-width: 25%;
+}
+
+.center {
+  text-align: center;
+}
+
+.column {
+ float: left;
+  width: 25%;
+  padding: 60px
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  font-size: 30px
+}
+
+.discription {
+  font-size: 20px;
+}
+
+.name {
+  font-size: 40px;
+}
+
+.location {
+  font-size: 20px;
+}
+
+.imp {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+}
